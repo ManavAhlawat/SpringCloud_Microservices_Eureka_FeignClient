@@ -1,0 +1,27 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8763/eureka/
+server:
+  port: 8763
+
+instance:
+  hostname: Resource
+jwt:
+  secret: itlizeproject
+spring:
+  application:
+    name: resources-service
+  datasource:
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/ItlizeProject
+    username: manavahlawat
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
