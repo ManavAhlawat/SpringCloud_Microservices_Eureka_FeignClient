@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: projects-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceid: CONFIG
+    #  profile: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/,http://localhost:8761/eureka/
