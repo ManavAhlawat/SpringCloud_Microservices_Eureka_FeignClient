@@ -6,6 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/ManavAhlawat/SpringCloud_Microservices_Eureka_FeignClient.git
+          searchPaths: configRepository
           username: manavahlawat95@gmail.com
           password: hellogithub18
 
