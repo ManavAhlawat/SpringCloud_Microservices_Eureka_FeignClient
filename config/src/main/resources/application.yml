@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/ManavAhlawat/SpringCloud_Microservices_Eureka_FeignClient.git
           searchPaths: configRepository
           username: manavahlawat95@gmail.com
-          password: hellogithub18
+          password: password goes here
 
           #basedir: /Users/shuyang/Dev/Itlize_Training/Micro-service/config-server/baseddir
 eureka:
